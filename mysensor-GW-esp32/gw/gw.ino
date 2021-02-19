@@ -60,8 +60,7 @@
 //#define MY_MQTT_PASSWORD "password"
 
 // Set WIFI SSID and password
-#define MY_WIFI_SSID "ssid"
-#define MY_WIFI_PASSWORD "passwd"
+#include "config.h"
 
 // Set the hostname for the WiFi Client. This is the hostname
 // passed to the DHCP server if not static.
